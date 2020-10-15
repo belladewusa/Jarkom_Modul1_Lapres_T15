@@ -5,6 +5,23 @@ Nama Anggota:
   - Nabella Desyawulansari 05311840000039
 
 ## Display Filter
+### NO1
+Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
+
+**Jawaban:**
+
+```
+http.host == testing.mekanis.me
+```
+
+1. Langkah yang harus dilakukan adalah meletakkan filter command ```http.host == testing.mekanis.me```
+2. Lalu akan terlihat packet yang dicari.
+3. Lalu klik kanan dan memilih submenu ```Follow``` 
+4. Pada submenu ```Follow```, memilih submenu lagi yaitu ```TCP Stream```
+5. Akan menampilkan semua info termasuk webserver dari ```testing.mekanis.me```
+
+**Screenshot:**
+
 
 ## Capture Filter
 ### NO11 
