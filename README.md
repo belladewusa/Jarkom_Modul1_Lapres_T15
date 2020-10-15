@@ -24,6 +24,36 @@ http.host == testing.mekanis.me
 
 ![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%201.jpg)
 
+### NO6
+Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut)
+
+**Jawaban:**
+
+```
+ftp-data
+```
+
+1. Untuk mencari file ```Answer.zip``` di FTP bisa menggunakan command ```ftp-data``` 
+2. Selanjutnya adalah mencari menggunakan ```ctrl+f``` dan mencarinya dengan pilihan ```Reguler Expression``` serta keywordnya berupa ```Answer.zip```. Selanjutnya akan menampilkan packet seperti ini: 
+![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20command%20answer.jpg)
+3. Selanjutnya melakukan penulusuran dengan submenu ```Follow``` dan ```TCP Stream```
+4. Untuk save data tersebut, mengubah ekstensi data pada menu ```Show and Save data as``` menjadi ```Raw```
+![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20tcp%20flow%20answer.jpg)
+5. Save data tersebut dengan ekstensi ```Answer.zip```
+6. File pdf didalam folder ```Answer.zip``` membutuhkan password. Untuk mencarinya, masih menggunakan command yang sama yaitu ```ftp-data```
+7. Selanjutnya adalah mencari menggunakan ```ctrl+f``` dan mencarinya dengan pilihan ```Reguler Expression``` serta keywordnya berupa ```Answer.zip```. Selanjutnya akan menampilkan packet seperti ini:
+![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20command%20zipkey.jpg)
+8. Selanjutnya melakukan penulusuran dengan submenu ```Follow``` dan ```TCP Stream```
+9. Untuk save data tersebut, mengubah ekstensi data pada menu ```Show and Save data as``` menjadi ```Raw```
+![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20tcp%20follow%20zipkey.jpg)
+10. Save data password tadi dengan ekstensi ```zipkey.txt```
+11. zipkey.txt akan menunjukkan bahwa password adalah: ```hey997400323051``` dan langsung dimasukkan saja didalam kolom password pdf yang berada didalam folder ```Answer.zip```
+![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20insert%20password.jpg)
+12. Akan terbuka file pdf yang dicari-cari. 
+
+**Screenshot:**
+![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20pdf.jpg)
+
 ### NO7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
 Your Super Mega Ultra Rare Hint = nama pdf-nya ```"Yes.pdf"```
