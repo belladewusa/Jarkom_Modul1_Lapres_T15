@@ -24,6 +24,30 @@ http.host == testing.mekanis.me
 
 ![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%201.jpg)
 
+### NO7
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
+Your Super Mega Ultra Rare Hint = nama pdf-nya ```"Yes.pdf"```
+
+**Jawaban:**
+
+```
+ftp-data contains Yes.pdf
+```
+
+1. Menggunakan Display Filter command ```ftp-data contains Yes.pdf``` untuk mencari data yang diinginkan. 
+2. Selanjutnya packet akan terlihat seperti ini: 
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202%20(command).jpg)
+3. Langkah selanjutnya adalah memilih packet dan melakukan penelusuran lebih lanjut dengan klik kanan dan memilih submenu ```Follow```
+4. Pada submenu ```Follow```, memilih submenu lagi yaitu ```TCP Stream```dan akan menampilkan seperti ini: 
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202%20(tcp%20follow).jpg)
+5. Selanjutnya adalah men-save data. Namun perlu diperhatikan pada saat mens-save, mengubah ekstensi data pada menu ```Show and Save data as``` menjadi ```Raw```
+6. Save data tersebut dengan ekstensi ```.zip```
+7. Setelah disimpan, ekstrak file zip tersebut dan akan menampilkan file ```Yes.pdf```
+
+**Screenshot:**
+
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202%20(pdf).jpg)
+
 ## Capture Filter
 ### NO11 
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
