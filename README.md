@@ -31,7 +31,7 @@ src port 80
 
 **Screenshoot:**
 
-Port 80 tidak muncul disembarang website. Untuk perintah No 2 kami pergi ke halaman website ajk.if.its.ac.id. Command yang digunakan adalah ```src port 80```
+Port 80 tidak muncul disembarang website. Untuk perintah No 2 kami pergi ke halaman website ```ajk.if.its.ac.id```. Command yang digunakan adalah ```src port 80```
 
 ![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%202.jpg)
 
