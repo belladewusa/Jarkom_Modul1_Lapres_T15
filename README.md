@@ -44,7 +44,7 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 dst port 443
 ```
 
-**Screenshot**
+**Screenshot:**
 
 Port 443 banyak muncul di berbagai website. Sebagai contohnya pada nomor ini kami menggunakan halaman website ```google.com```. Command yang digunakan adalah ```dst port 443``` yang berfungsi untuk menangkap semua paket yang menuju port 443. 
 
@@ -61,6 +61,21 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 **Screenshot:**
 ![no4](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%204.jpg)
+
+### NO 15
+Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+**Jawaban:**
+
+```
+dst host monta.if.its.ac.id
+```
+
+**Screenshot:**
+
+Untuk mencari paket yang menuju alamat ```monta.if.its.ac.id```, dapat menggunakan command ```dst host <alamat tujuan>```. 
+
+![no5](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%205.jpg)
 
 
 
