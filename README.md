@@ -36,17 +36,17 @@ ftp-data contains Yes.pdf
 
 1. Menggunakan Display Filter command ```ftp-data contains Yes.pdf``` untuk mencari data yang diinginkan. 
 2. Selanjutnya packet akan terlihat seperti ini: 
-![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202%20(command).jpg)
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%207%20(command).jpg)
 3. Langkah selanjutnya adalah memilih packet dan melakukan penelusuran lebih lanjut dengan klik kanan dan memilih submenu ```Follow```
 4. Pada submenu ```Follow```, memilih submenu lagi yaitu ```TCP Stream```dan akan menampilkan seperti ini: 
-![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202%20(tcp%20follow).jpg)
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%207%20(tcp%20follow).jpg)
 5. Selanjutnya adalah men-save data. Namun perlu diperhatikan pada saat mens-save, mengubah ekstensi data pada menu ```Show and Save data as``` menjadi ```Raw```
 6. Save data tersebut dengan ekstensi ```.zip```
 7. Setelah disimpan, ekstrak file zip tersebut dan akan menampilkan file ```Yes.pdf```
 
 **Screenshot:**
 
-![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202%20(pdf).jpg)
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%207%20(pdf).jpg)
 
 ## Capture Filter
 ### NO11 
