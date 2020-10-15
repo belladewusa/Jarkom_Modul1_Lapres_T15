@@ -16,7 +16,7 @@ Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 port 21
 ```
 
-**Screenshoot:**
+**Screenshot:**
 
 ![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%201.jpg)
 
@@ -29,11 +29,26 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 src port 80
 ```
 
-**Screenshoot:**
+**Screenshot:**
 
-Port 80 tidak muncul disembarang website. Untuk perintah No 2 kami pergi ke halaman website ```ajk.if.its.ac.id```. Command yang digunakan adalah ```src port 80```
+Port 80 tidak muncul disembarang website. Untuk perintah No 2 kami pergi ke halaman website ```ajk.if.its.ac.id```. Command yang digunakan adalah ```src port 80``` yang berfungsi untuk menampilkan semua paket yang berasal dari port 80.
 
 ![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%202.jpg)
+
+### NO13
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+**Jawaban:**
+
+```
+dst port 443
+```
+
+**Screenshot**
+
+Port 443 banyak muncul di berbagai website. Sebagai contohnya pada nomor ini kami menggunakan halaman website ```google.com```. Command yang digunakan adalah ```dst port 443``` yang berfungsi untuk menangkap semua paket yang menuju port 443. 
+
+![no3](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%203.jpg)
 
 
 
