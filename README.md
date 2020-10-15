@@ -73,7 +73,7 @@ dst host monta.if.its.ac.id
 
 **Screenshot:**
 
-Untuk mencari paket yang menuju alamat ```monta.if.its.ac.id```, dapat menggunakan command ```dst host <alamat tujuan>```. 
+Untuk mencari paket yang menuju alamat ```monta.if.its.ac.id```, dapat menggunakan command ```dst host <alamat tujuan>```
 
 ![no5](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%205.jpg)
 
