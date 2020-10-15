@@ -50,6 +50,18 @@ Port 443 banyak muncul di berbagai website. Sebagai contohnya pada nomor ini kam
 
 ![no3](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%203.jpg)
 
+### NO14
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+**Jawaban:**
+
+1. Mencari alamat IP kita. Buka cmd dan ketik ```ipconfig```
+2. Setelah mendapatkan alamat IP, bisa di copy. 
+3. Command yang dibutuhkan adalah ```src host <alamat IP>``` yang berfungsi untuk mencari paket yang berasal dari alamat IP kita. 
+
+**Screenshot:**
+![no4](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%204.jpg)
+
 
 
 
