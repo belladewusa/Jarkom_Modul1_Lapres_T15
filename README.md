@@ -24,6 +24,24 @@ http.host == testing.mekanis.me
 
 ![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%201.jpg)
 
+
+
+### NO2
+Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
+
+**Jawaban:**
+
+Klik pada File > export object > http > filter Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg > download
+
+
+**screenshot**
+
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202.png)
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202a.png)
+![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202b%20Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg)
+
+
+
 ### NO6
 Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut)
 
