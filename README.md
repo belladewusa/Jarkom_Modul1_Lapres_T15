@@ -160,6 +160,69 @@ ftp-data contains Yes.pdf
 
 ![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%207%20(pdf).jpg)
 
+
+
+### NO8
+Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+
+**Jawaban:**
+
+Untuk mencari IP Microsoft FTP Service input command berikut ke display filter
+
+```
+ftp contains “Microsoft”
+```
+
+Setelah didapatkan kita mencari objek apa saja yang didownload dari IP tersebut dengan command berikut
+```
+ftp.request.command contains "RETR" && ip.dst == 198.246.117.106
+```
+
+**Screenshot:**
+
+![no8](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%208.png)
+![no8](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%208a.png)
+
+
+
+### NO9
+Cari username dan password ketika login FTP pada localhost!
+
+**Jawaban:**
+
+```
+ftp.request.command == USER || ftp.request.command == PASS
+```
+
+Setelah dimasukan commandnya lalu tekan enter , maka langsung terlihat USER dhana PASS dhana123
+
+**Screenshot:**
+
+![no9](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%209.png)
+
+
+### NO10
+Cari file .pdf di wireshark lalu download dan buka file tersebut!
+clue: "25 50 44 46"
+
+**Jawaban:**
+
+Langkah-langkahnya
+1. Ctrl+F 
+2. input clue : 25 50 44 46
+3. ubah jadi hex value 
+4. klik enter atau find
+5. Akan langsung terlihat paketnya lalu klik kanan pada mouse > follow tcp stream > ubah ke raw lalu save as (langsung download) dengan menyimpan format .pdf
+
+**Screenshot:**
+
+![no10](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%2010.png)
+
+![no10](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%2010a.png)
+
+
+
+
 ## Capture Filter
 ### NO11 
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
@@ -172,7 +235,9 @@ port 21
 
 **Screenshot:**
 
-![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Capture%20Filter/no%201.jpg)
+![no10](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%2010.png)
+
+![no10](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%2010.png)
 
 ### NO12
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
