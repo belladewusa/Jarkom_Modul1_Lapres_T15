@@ -223,6 +223,8 @@ Langkah-langkahnya
 
 
 
+
+
 ## Capture Filter
 ### NO11 
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
