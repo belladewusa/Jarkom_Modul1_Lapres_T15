@@ -123,7 +123,7 @@ ftp-data
 ![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20tcp%20flow%20answer.jpg)
 5. Save data tersebut dengan ekstensi ```Answer.zip```
 6. File pdf didalam folder ```Answer.zip``` membutuhkan password. Untuk mencarinya, masih menggunakan command yang sama yaitu ```ftp-data```
-7. Selanjutnya adalah mencari menggunakan ```ctrl+f``` dan mencarinya dengan pilihan ```Reguler Expression``` serta keywordnya berupa ```Answer.zip```. Selanjutnya akan menampilkan packet seperti ini:
+7. Selanjutnya adalah mencari menggunakan ```ctrl+f``` dan mencarinya dengan pilihan ```Reguler Expression``` serta keywordnya berupa ```zipkey```. Selanjutnya akan menampilkan packet seperti ini:
 ![no6](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%206%20command%20zipkey.jpg)
 8. Selanjutnya melakukan penulusuran dengan submenu ```Follow``` dan ```TCP Stream```
 9. Untuk save data tersebut, mengubah ekstensi data pada menu ```Show and Save data as``` menjadi ```Raw```
