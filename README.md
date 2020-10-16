@@ -41,6 +41,70 @@ Klik pada File > export object > http > filter Tim_Kunjungan_Kerja_BAKN_DPR_RI_k
 ![no2](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%202b%20Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg)
 
 
+### NO3
+Cari username dan password ketika login di "ppid.dpr.go.id"!
+
+**Jawaban:**
+
+```
+http.host == ppid.dpr.go.id && hhtp.request.method == POST
+```
+
+1. Langkah yang harus dilakukan adalah meletakkan filter command ```http.host == ppid.dpr.go.id && hhtp.request.method == POST```
+2. Lalu akan terlihat packet yang dicari.
+3. Pada bagian HTML Form URL Encoded, terlihat username ```10pemuda```  dan password ```guncangdunia```
+
+**Screenshot:**
+
+![no3](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%203.png)
+
+
+### NO4
+Temukan paket dari web-web yang menggunakan basic authentication method!
+
+**Jawaban:**
+
+Cara yang pertama : 
+Ketikan command berikut pada display filter
+```
+http.authbasic
+```
+Lalu enter, maka akan muncul web yang menggunakan basic authentication method
+
+Cara lainnya :
+Klik edit > find packet > ketik credential > ubah ke string > packet details > lalu find
+Maka akan muncul berbagai paket yang mengandung basic authentication method
+
+**Screenshot:**
+
+![no4](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%204.png)
+![no4](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%204b.png)
+
+
+### NO5
+Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
+
+**Jawaban:**
+
+```
+http.host == aku.pengen.pw
+```
+Follow http > dapat code basch64 > kemudian di decrypt
+Setelah didapatkan hasilnya, segera buka web aku.pengen.pw
+Akan diminta username dan password, kemudian di isi dengan code hasil decrypt sebelumnya , yaitu kakakgamtenk:hartatahtabermuda
+Setelah berhasil masuk diminta sebutkan urutan konfigurasi pengkabelan T568B , kemudian di SS
+
+
+**Screenshot:**
+
+![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%205.png)
+
+![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%205a.png)
+
+![no1](https://github.com/belladewusa/Jarkom_Modul1_Lapres_T15/blob/main/Display%20Filter/no%205b.png)
+
+
+
 
 ### NO6
 Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut)
